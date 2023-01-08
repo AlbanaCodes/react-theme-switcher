@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import './App.scss';
-import Navbar from './components/Navbar';
+import Heroe from './components/Heroe';
 import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher';
 
 function App() {
 
   return (
-    <div className="App">
-      <Navbar />
-
+    <div className="App container">
+      <Heroe />
+	  
 	  <ThemeSwitcher />
     </div>
   )

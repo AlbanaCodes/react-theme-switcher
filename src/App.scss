@@ -1,1 +1,15 @@
 @import './styles/standard';
+
+.App{
+	background-color: var(--primary);
+	font-family: var(--font-base);
+}
+
+.container {
+	width: 100%;
+	min-height: 100vh;
+}
+
+header {
+	background-color: var(--navbar-color);
+}

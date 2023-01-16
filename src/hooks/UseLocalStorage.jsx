@@ -10,13 +10,13 @@ const UseLocalStorage =  (key, initialValue) => {
 			console.log(err)
 			return initialValue;
 		}
-	})
+	});
 
 
-useEffect(() =>{
-	window.localStorage.setItem(key, JSON.stringify(value))
-}, [key, value])
+	useEffect(() =>{
+		window.localStorage.setItem(key, JSON.stringify(value))
+	}, [key, value]);
 
-return [value, setValue]
+	return [value, setValue];
 }
 export default UseLocalStorage;

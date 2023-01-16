@@ -3,7 +3,7 @@ import React from 'react';
 const Heroe = () => {
   return (
 	<>
-	<div>Heroe</div>
+	<h1>Heroe</h1>
 	<p>This is a paragraph</p>
 	<input type="text" />
 	<button>Button</button>

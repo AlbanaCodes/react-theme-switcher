@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { HiMoon, HiSun } from 'react-icons/hi';
-import UseLocalStorage from '../../hooks/UseLocalStorage';
+import UseLocalStorage from '../hooks/UseLocalStorage';
 
 function ThemeSwitcher() {
 	const defaultDark = window.matchMedia('(prefer-color-scheme: dark)').matches;

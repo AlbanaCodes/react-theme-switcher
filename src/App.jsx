@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.scss';
 import Heroe from './components/Heroe';
-import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher';
+import ThemeSwitcher from './components/ThemeSwitcher';
 
 function App() {
 	return (

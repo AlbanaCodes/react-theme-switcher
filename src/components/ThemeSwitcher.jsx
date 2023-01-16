@@ -18,7 +18,8 @@ function ThemeSwitcher() {
 		<aside >
 		<button aria-label={`Change theme to ${theme === "light" ? "dark" : "light"} mode`}
 				role="switch"
-				onClick={handleThemeButton}>
+				onClick={handleThemeButton}
+				className="btn">
 		{
 			theme === 'light' ?
 				<HiMoon />

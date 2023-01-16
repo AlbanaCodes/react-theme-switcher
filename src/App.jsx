@@ -5,7 +5,7 @@ import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher';
 
 function App() {
 	return (
-		<div className="App container dark flex">
+		<div className="App flex">
 			<Heroe />			
 			<ThemeSwitcher />
 		</div>
